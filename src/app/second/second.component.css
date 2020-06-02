@@ -1,0 +1,131 @@
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.heder{
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    font-size: 4vmax;
+    display: flex;
+    justify-content: center;
+    width: 2em;
+}
+.mat-icon {
+    width: auto;
+    height: auto;
+}
+
+.mat-menu-trigger {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-width: 0;
+    align-self: center;
+}
+.mat-menu-item {
+    font-size: 3vmax;
+    line-height: 2vmax;
+    font-family: Montserrat;
+}
+.museum {
+    font-size: 2vmax;
+    line-height: 2vmax;
+    margin-left: 0.82em;
+    font-family: Montserrat;
+}
+.imege { 
+    margin: 0;
+}
+.content {
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.82em;
+    line-height: 3vmax;
+}
+.exhibition {
+    font-size: 1.5vmax;
+    align-items: center;
+    margin: 0;
+    color: #979797;
+}
+.topic {
+    font-size: 3vmax;
+    line-height: 3vmax;
+    width: 5em;
+    color: #000000;
+    margin: 0;
+}
+.date {
+    font-size: 2vmax;
+    align-items: center;
+    margin: 0;
+    color: #FF473A;
+}
+.event {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+.add-event {
+    border: none;
+    height: 5vmax;
+    width: 35vmax;
+    background: #FF473A;
+    mix-blend-mode: normal;
+    outline-width: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 2vmax;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #FF473A;
+    margin-top: auto;
+}
+.location {
+    display: flex;
+}
+
+.locationName {
+    font-size: 1.8vmax;
+    line-height: 2vmax;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+
+}
+.locationIcon {
+    margin: 0;
+    width: 2.8vmax;
+    padding-top: 0.5vmax;
+}
+
+.time {
+    display: flex;
+    margin-right: 10px;
+}
+
+.accessTime {
+    font-size: 1.8vmax;
+    line-height: 2vmax;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+
+}
+.timeIcon {
+    margin: 0;
+    width: 2.8vmax;
+    padding-top: 1vmax;
+}

@@ -1,0 +1,68 @@
+
+<div class="flexbox">
+  <div class="heder">
+    <!-- page name -->
+    <div class="museum">
+      <p>THE<br>
+        ART<br>
+      MUSEUM</p>
+    </div>
+    <!-- menu button -->
+    <div  class="menu">
+      <button mat-button [matMenuTriggerFor]="menu">
+          <mat-icon class="menu">menu</mat-icon>
+      </button>
+    <!-- menu content -->
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="goThird()">Exhibition Preview</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+    </div>
+
+  </div>
+
+
+
+  <figure class="imege">
+    <img mat-card-image src="http://kiev.moygorod.ua/upload/news3/2019-01/2019-01-11-avangardnoe-iskusstvo.jpeg"
+    width="100%"
+  alt="imege1">
+  </figure>
+  <div class="content">
+
+  <p class="exhibition">EXHIBITION</p>
+
+  <p class="topic">MASTERS OLD AND NEW</p>
+  <p class="date">APRIL 15 - SEPTEMBER 20</p>
+  <p class="exhibition">FLORE 5</p>
+  </div>
+
+
+  <div class="event">
+    <button class="add-event">Plan Your Visit</button>
+  </div>
+
+  <div class="bottom-bar">
+      <div class="location">
+        <figure class="locationIcon">
+          <img src="assets/imeges/location.svg" width="100%" alt="location">
+        </figure>
+    <p class="locationName">
+151 3rd St<br>
+San Francisco, CA 94103
+  </p>
+      </div>
+      <div class="time">
+  <figure class="timeIcon">
+    <img src="assets/imeges/clock.svg" width="100%" alt="clock">
+  </figure>
+    <p class="accessTime">
+Open today<br>
+10:00am — 5:30pm
+    </p>
+      </div>
+  </div>
+
+</div>
+
+
